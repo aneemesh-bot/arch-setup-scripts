@@ -1,0 +1,6 @@
+#! /bin/bash
+system76-power graphics integrated
+systemctl enable --now tlp
+systemctl disable --now isw@16Q2EMS1.service
+reboot
+

@@ -1,0 +1,5 @@
+#! /bin/bash
+system76-power graphics nvidia
+systemctl disable tlp
+systemctl enable --now isw@16Q2EMS1.service
+reboot

@@ -1,0 +1,12 @@
+#! /bin/bash
+echo "Aneemesh"
+read num1
+read num2
+k=$(($num1+$num2))
+
+echo $k
+
+echo $0
+echo $1
+echo $*
+echo $#
